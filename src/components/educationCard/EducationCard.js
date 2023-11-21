@@ -15,6 +15,17 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
+
+  const GetDescSubBullets = ({descBullets1}) => {
+    return descBullets1
+      ? descBullets1.map((item, i) => (
+          <li key={i} className="subTitle">
+            {item}
+          </li>
+        ))
+      : null;
+  };
+
   const {isDark} = useContext(StyleContext);
 
   if (!school.logo)
@@ -55,9 +66,11 @@ export default function EducationCard({school}) {
                 {school.duration}
               </p>
               <p className="education-text-desc">{school.desc}</p>
+              <p className="education-text-desc">{school.desc1}</p>
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
+                  <GetDescSubBullets descBullets1={school.descBullets1} />
                 </ul>
               </div>
             </div>

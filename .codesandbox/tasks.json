@@ -11,8 +11,7 @@
   "tasks": {
     "predeploy": {
       "name": "predeploy",
-      "command": "npm run predeploy",
-      "runAtStart": false
+      "command": "npm run predeploy"
     },
     "start": {
       "name": "start",
@@ -21,33 +20,27 @@
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "deploy": {
       "name": "deploy",
-      "command": "npm run deploy",
-      "runAtStart": false
+      "command": "npm run deploy"
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
     },
     "eject": {
       "name": "eject",
-      "command": "npm run eject",
-      "runAtStart": false
+      "command": "npm run eject"
     },
     "format": {
       "name": "format",
-      "command": "npm run format",
-      "runAtStart": false
+      "command": "npm run format"
     },
     "check-format": {
       "name": "check-format",
-      "command": "npm run check-format",
-      "runAtStart": false
+      "command": "npm run check-format"
     }
   }
 }

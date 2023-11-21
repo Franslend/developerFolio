@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Frans Lend",
-  title: "Hello Everyone, I'm Jay Francis",
+  title: "Hello Everyone, I'm Jay Francis Intig",
   subTitle: emoji(
-    "A passionate student, aspiring to be an IT support 🚀 having an experience of building Web application with JavaScript / HTML5 / Bootstrap and MySQL."
+    "A passionate student, aspiring to be an IT support 🚀 having an experience of building Web application using JavaScript / HTML5 / Bootstrap and MySQL."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "CREATING A WEB BASED PRODUCT INFORMATION SYSTEM AND EXPLORE FOR MORE CHALLENGES",
+    "CREATING A DIFFERENT TYPES OF WEB BASED SYSTEM AND EXPLORE FOR MORE CHALLENGES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -121,6 +121,27 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "50%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "70%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
 // Education Section
 
 const educationInfo = {
@@ -131,50 +152,40 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science Information Technology",
       duration: "August 2020 - July 2024",
-      desc: "Participated in the Capstone project of Web based Product Information System and published 2 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Participated in the Capstone project of Web based Product Information System and published 1 papers.",
+      desc1: "Achievements:",
+      descBullets: ["Certification in Python workshop"],
+      descBullets1: ["GPA of 1.64"]
     },
     {
       schoolName: "Iligan City East National High School",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Senior High School Grade",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Participated in the Research project entitled A Research Paper of the effects of having a low grade in mathematics being an SPA student, and published 1 paper.",
+      desc1: "Achievements:",
+      descBullets: ["Champion in a News Casting"],
+      descBullets1: ["GPA of 89.9"]
     },
     {
       schoolName: "Lugait National High School",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "High School Grade",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "",
+      desc1: "Achievements:",
+      descBullets: ["GPA of 89.6"]
+    },
+    {
+      schoolName: "Crisologo Elementary School",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Elementary Grade",
+      duration: "September 2013 - April 2017",
+      desc: "",
+      desc1: "Achievements:",
+      descBullets: ["3rd Academic Honor"]
     }
   ]
-};
-
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -359,7 +370,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I LOVE TO PLAY AND TALK ABOUT TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -372,8 +383,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+63-9302193876",
+  email_address: "jayfrancis.intig20@gmail.com"
 };
 
 // Twitter Section
