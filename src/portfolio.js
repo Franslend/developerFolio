@@ -23,7 +23,7 @@ const greeting = {
   username: "Frans Lend",
   title: "Hello Everyone, I'm Jay Francis Intig",
   subTitle: emoji(
-    "A passionate student, aspiring to be an IT support 🚀 having an experience of building Web application using JavaScript / HTML5 / Bootstrap and MySQL."
+    "A passionate student, aspiring to be an IT support 🚀 having an experience of building Web application using JavaScript / HTML5 / Bootstrap / React and MySQL."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,9 +35,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Franslend",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "jayfrancis.intig20@gmail.com",
+  gmail: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#onboarding/chat",
   gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/jayfrancisintig",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -149,17 +149,17 @@ const educationInfo = {
   schools: [
     {
       schoolName: "MINDANAO STATE UNIVERSITY AT NAAWAN",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/msunLogo.png"),
       subHeader: "Bachelor of Science Information Technology",
       duration: "August 2020 - July 2024",
-      desc: "Participated in the Capstone project of Web based Product Information System and published 1 papers.",
+      desc: "Participated in the Capstone project of Web based Product Information System and published 1 paper.",
       desc1: "Achievements:",
       descBullets: ["Certification in Python workshop"],
       descBullets1: ["GPA of 1.64"]
     },
     {
       schoolName: "Iligan City East National High School",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/icenhsLogo.png"),
       subHeader: "Senior High School Grade",
       duration: "September 2013 - April 2017",
       desc: "Participated in the Research project entitled A Research Paper of the effects of having a low grade in mathematics being an SPA student, and published 1 paper.",
@@ -169,7 +169,7 @@ const educationInfo = {
     },
     {
       schoolName: "Lugait National High School",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/lugaitLogo.png"),
       subHeader: "High School Grade",
       duration: "September 2013 - April 2017",
       desc: "",
@@ -178,7 +178,7 @@ const educationInfo = {
     },
     {
       schoolName: "Crisologo Elementary School",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/crisLogo.png"),
       subHeader: "Elementary Grade",
       duration: "September 2013 - April 2017",
       desc: "",
@@ -195,7 +195,7 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
+      company: "Github",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
