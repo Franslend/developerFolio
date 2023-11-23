@@ -34,12 +34,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Franslend",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#onboarding/chat",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/jayfrancisintig",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/franslend/",
+  gmail: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
+  gitlab: "https://gitlab.com/franslend",
+  facebook: "https://www.facebook.com/profile.php?id=61552465216823",
+  medium: "https://medium.com/@franslend",
+  stackoverflow: "https://stackoverflow.com/users/22971802/franslend-20",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -55,7 +55,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Eager to learn more languages"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -161,7 +161,7 @@ const educationInfo = {
       schoolName: "Iligan City East National High School",
       logo: require("./assets/images/icenhsLogo.png"),
       subHeader: "Senior High School Grade",
-      duration: "September 2013 - April 2017",
+      duration: "June 2018 - April 2020",
       desc: "Participated in the Research project entitled A Research Paper of the effects of having a low grade in mathematics being an SPA student, and published 1 paper.",
       desc1: "Achievements:",
       descBullets: ["Champion in a News Casting"],
@@ -171,7 +171,7 @@ const educationInfo = {
       schoolName: "Lugait National High School",
       logo: require("./assets/images/lugaitLogo.png"),
       subHeader: "High School Grade",
-      duration: "September 2013 - April 2017",
+      duration: "June 2015 - April 2018",
       desc: "",
       desc1: "Achievements:",
       descBullets: ["GPA of 89.6"]
@@ -180,7 +180,7 @@ const educationInfo = {
       schoolName: "Crisologo Elementary School",
       logo: require("./assets/images/crisLogo.png"),
       subHeader: "Elementary Grade",
-      duration: "September 2013 - April 2017",
+      duration: "September 2009 - April 2015",
       desc: "",
       desc1: "Achievements:",
       descBullets: ["3rd Academic Honor"]
@@ -195,28 +195,37 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Github",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Freelancer",
+      companylogo: require("./assets/images/freeLogo.png"),
+      date: "June 2024 – 2026",
+      desc: "Web App Development for Management System Companies",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the development of a cross-platform web app for Management System client, and to ensure the users experience with both iOS and Android devices, and ensures security to the system.",
+        "Achieved a 4.8-star rating on both app stores, with positive user feedback on the intuitive design and smooth performance."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT-support Specialist",
+      company: "Hoyoverse",
+      companylogo: require("./assets/images/hoyoLogo.png"),
+      date: "August2027 – May 2030",
+      desc: "End-User Support",
+      descBullets: [
+        "Provide timely and effective technical support to end-users, addressing hardware and software issues through remote assistance and on-site troubleshooting.",
+        "Manage and prioritize support tickets using a ticketing system, ensuring issues are resolved within agreed-upon service level agreements (SLAs).",
+        "Conduct thorough root cause analysis to prevent recurring issues and improve overall system stability."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Suppport Specialist",
+      company: "Amazon",
+      companylogo: require("./assets/images/amaLogo.png"),
+      date: "Jan 2031 – Present",
+      desc: "Bug Tracking and Reporting",
+      descBullets: [
+        "Utilize bug tracking systems (e.g., Jira) to document and track reported issues, ensuring accurate and up-to-date information for both customers and internal teams.",
+        "Collaborate with development teams to prioritize and escalate critical issues, facilitating efficient bug resolution."
+      ]
     }
   ]
 };
@@ -232,30 +241,20 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Big Project",
+  subtitle: "COMPANY THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/kingLogo.png"),
+      projectName: "KingSun Product Information System",
+      projectDesc:
+        "An informtaion system which provide data storing and security towards product information in the KingSun Enterprises",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://kingsunenterprises.com/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -328,14 +327,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to play and get some ideas on it to get references for some of my projects.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.friv.com/",
+      title: "Friv web game",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Friv is a magical realm filled with a diverse array of games, an indispensable part of my childhood that added color and joy to every moment. Without this web sanctuary, my childhood would be incomplete."
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -352,7 +351,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO TALK TO PEOPLE AND THIS WAY I CAN MEET OTHER PEOPLE"
   ),
 
   talks: [
@@ -376,7 +375,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -390,7 +389,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "IntigJay28026", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
