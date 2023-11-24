@@ -1,5 +1,5 @@
-# myportfol
-🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.
+# My Porfolio
+🚀 Information about me.
 
 ---
 permalink: /index.html
